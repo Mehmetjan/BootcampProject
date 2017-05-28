@@ -17,6 +17,8 @@
         <module>worldbank</module>
         <module>EnterpriseCar</module>
         <module>NYT</module>
+        <module>BuyFromAmazon</module>
+        <module>Twitter</module>
     </modules>
 
     <dependencyManagement>

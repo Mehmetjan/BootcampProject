@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 164.865 sec <<< FAILURE! - in TestSuite
+showWather(testHomePage.TestShowWeather)  Time elapsed: 20.456 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@class='icon sprite-icon weather-icon icon-weather-12 w24']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-AF5L4ES', ip: '169.254.255.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mehmet\AppData\Local\Temp\rust_mozprofile.V9XKwxiDubDa, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=4452.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: d8b08156-daa8-4216-9e25-b12ee57261dc
+*** Element info: {Using=xpath, value=//*[@class='icon sprite-icon weather-icon icon-weather-12 w24']}
+	at testHomePage.TestShowWeather.showWather(TestShowWeather.java:17)
+
